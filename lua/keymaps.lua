@@ -24,3 +24,7 @@ map("n", "<leader>fg", '<cmd>FzfLua live_grep<CR>')
 
 -- Netrw
 map("n", "<Leader>b", "<cmd>Lex<CR>")
+
+-- Open diagnostic message in floating window
+map("n", "<leader>e", vim.diagnostic.open_float, { noremap = true, silent = true, buffer = bufnr})
+

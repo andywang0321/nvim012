@@ -32,3 +32,4 @@ vim.g.netrw_chgwin = 2 -- How files are opened (2 = previous window)
 vim.g.netrw_winsize = 20 -- Set sidebar width to 20%
 vim.g.netrw_liststyle = 3 -- Use tree-style view
 vim.g.netrw_banner = 0 -- Hide the help banner at the top
+vim.g.netrw_browse_split = 4 -- Open newly created file in previous window
